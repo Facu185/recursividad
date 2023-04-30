@@ -12,7 +12,7 @@ function countNum(i){
     return countNum(i+1);
 }
 countNum(0);
-console.log("el numero mayor es ",num); 
+console.log("El numero mayor es: ",num); 
 let aryPalabras = ["Facundo", "Santiago", "Alexandra", "Nestor", "Adriana", "Bruno", "Pia", "Max"];
 let maxLetras = Number.MAX_VALUE;
 let aryGuaradar = [];
@@ -33,7 +33,7 @@ function countPalabras(e){
     return countPalabras(e+1);
 }
 countPalabras(0);
-console.log("los nombres mas cortos son",aryGuaradar);
+console.log("Los nombres mas cortos son:",aryGuaradar);
 let aryNums2 = [ 1, 2, 3, 22, 6, 5, 83, 11,2, 3, 5, 7, 11, 13, 61, 67, 71, 73, 79];
 let num2 = 0;
 function countNum2(i){
@@ -62,4 +62,4 @@ function countNum2(i){
     return countNum2(i+1);
 }
 countNum2(0);
-console.log("el mayor numero primo es ",num2);  
+console.log("El mayor numero primo es: ",num2);  
